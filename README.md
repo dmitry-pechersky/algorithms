@@ -9,3 +9,4 @@
 * 07_the_maximum_subarray "The Maximum Subarray", dynamic programming, medium
 ## UVa Online Judge
 * 01203 - Argus
+* 10954 - Add All
