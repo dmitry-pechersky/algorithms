@@ -10,3 +10,4 @@
 ## UVa Online Judge
 * 01203 - Argus
 * 10954 - Add All
+* 00793 - Network Connections
