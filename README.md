@@ -1,14 +1,14 @@
 # Competitive programming challenges 
 ## HackerRank
 * Greedy
-  * 01_max_min "Max min", greedy
-  * 02_goodland_electricity "Goodland Electricity", greedy
-  * 03_chief_hopper "Chief Hopper", greedy
+  * Max min
+  * Goodland Electricity
+  * Chief Hopper
 * Dynamic programming  
-  * 04_equal "Equal", dynamic programming
-  * 05_abbreviation "Abbreviation", dynamic programming
-  * 06_the_longest_common_subsequence "The Longest Common Subsequence", dynamic programming
-  * 07_the_maximum_subarray "The Maximum Subarray", dynamic programming
+  * Equal
+  * Abbreviation
+  * The Longest Common Subsequence
+  * The Maximum Subarray
 
 
 ## UVa Online Judge
