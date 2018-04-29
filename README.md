@@ -12,6 +12,8 @@
 
 
 ## UVa Online Judge
+* Graph Data Structures Problems
+  * 10895 - Matrix Transpose
 * Union-Find Disjoint Sets
   * 00793 - Network Connections
   * 01197 - The Suspects
