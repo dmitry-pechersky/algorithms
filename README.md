@@ -14,6 +14,7 @@
 ## UVa Online Judge
 * Graph Data Structures Problems
   * 10895 - Matrix Transpose (transpose sparse matrix, adjacency list)
+  * 11550 - Demanding Dilemma (incidence matrix)
 * Union-Find Disjoint Sets
   * 00793 - Network Connections
   * 01197 - The Suspects
