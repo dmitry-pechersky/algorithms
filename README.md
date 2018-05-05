@@ -14,6 +14,8 @@
 ## UVa Online Judge
 * Linked List
   * 11988 - Broken Keyboard
+* Stack
+  * 00732 - Anagram by Stack
 * Graph Data Structures Problems
   * 10895 - Matrix Transpose (transpose sparse matrix, adjacency list)
   * 11550 - Demanding Dilemma (incidence matrix)
