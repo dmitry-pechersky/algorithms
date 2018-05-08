@@ -25,6 +25,8 @@
   * 01197 - The Suspects
 * Tree-related Data Structures
   * 00297 - Quadtrees
+* Graph Traversal
+  * 00469 - Wetlands of Florida
 * Others
   * 01203 - Argus
   * 10954 - Add All
