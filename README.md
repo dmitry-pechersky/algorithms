@@ -27,6 +27,7 @@
   * 00297 - Quadtrees
 * Graph Traversal
   * 00469 - Wetlands of Florida
+  * 00280 - Vertex
 * Others
   * 01203 - Argus
   * 10954 - Add All
