@@ -29,8 +29,8 @@
   * Graph Traversal
     * 00280 - Vertex
   * Flood Fill/Finding Connected Components
-    * 00469 - Wetlands of Florida.py
-    * 00352 - The Seasonal War.py
+    * 00469 - Wetlands of Florida
+    * 00352 - The Seasonal War
 * Others
   * 01203 - Argus
   * 10954 - Add All
