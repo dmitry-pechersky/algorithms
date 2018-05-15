@@ -30,7 +30,6 @@ def fill_number(grid, h, w, x, y):
     for dx, dy in dxy:
         fill_number(grid, h, w, x + dx, y + dy)
 
-
 if __name__ == '__main__':
     sys.setrecursionlimit(10000)
     case_i = 1
