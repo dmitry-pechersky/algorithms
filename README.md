@@ -32,6 +32,8 @@
     * 00352 - The Seasonal War
     * 00469 - Wetlands of Florida
     * 00657 - The Die is Cast
+  * Bipartite Graph Check
+    * 10004 - Bicoloring
 * Others
   * 01203 - Argus
   * 10954 - Add All
