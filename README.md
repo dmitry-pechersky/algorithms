@@ -36,6 +36,7 @@
     * 10004 - Bicoloring
     * 10505 - Montesco vs Capuleto
     * 11080 - Place the Guards
+    * 11396 - Claw Decomposition
 * Others
   * 01203 - Argus
   * 10954 - Add All
