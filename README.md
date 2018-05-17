@@ -34,6 +34,7 @@
     * 00657 - The Die is Cast
   * Bipartite Graph Check
     * 10004 - Bicoloring
+    * 10505 - Montesco vs Capuleto
 * Others
   * 01203 - Argus
   * 10954 - Add All
