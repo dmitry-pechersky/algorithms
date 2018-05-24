@@ -1,7 +1,7 @@
 # Competitive programming challenges 
 ## HackerRank
 * Greedy
-  * Max min
+  * Max Min
   * Goodland Electricity
   * Chief Hopper
 * Dynamic programming  
@@ -27,16 +27,19 @@
   * 00297 - Quadtrees
 * Graph
   * Graph Traversal
-    * 00280 - Vertex
-  * Flood Fill/Finding Connected Components
-    * 00352 - The Seasonal War
-    * 00469 - Wetlands of Florida
-    * 00657 - The Die is Cast
-  * Bipartite Graph Check
-    * 10004 - Bicoloring
-    * 10505 - Montesco vs Capuleto
-    * 11080 - Place the Guards
-    * 11396 - Claw Decomposition
+    * Just Graph Traversal
+      * 00280 - Vertex
+    * Flood Fill/Finding Connected Components
+      * 00352 - The Seasonal War
+      * 00469 - Wetlands of Florida
+      * 00657 - The Die is Cast
+    * Bipartite Graph Check
+      * 10004 - Bicoloring
+      * 10505 - Montesco vs Capuleto
+      * 11080 - Place the Guards
+      * 11396 - Claw Decomposition
+    * Finding Articulation Points/Bridges
+      * 00315 - Network
 * Others
   * 01203 - Argus
   * 10954 - Add All
