@@ -40,6 +40,7 @@
       * 11396 - Claw Decomposition
     * Finding Articulation Points/Bridges
       * 00315 - Network
+      * 00796 - Critical Links
 * Others
   * 01203 - Argus
   * 10954 - Add All
