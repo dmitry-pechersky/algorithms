@@ -41,6 +41,8 @@
     * Finding Articulation Points/Bridges
       * 00315 - Network
       * 00796 - Critical Links
+    * Finding Strongly Connected Components
+      * 00247 - Calling Circles
 * Others
   * 01203 - Argus
   * 10954 - Add All
