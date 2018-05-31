@@ -43,6 +43,7 @@
       * 00796 - Critical Links
     * Finding Strongly Connected Components
       * 00247 - Calling Circles
+      * 01229 - Sub-dictionary
 * Others
   * 01203 - Argus
   * 10954 - Add All
