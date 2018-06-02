@@ -44,6 +44,8 @@
     * Finding Strongly Connected Components
       * 00247 - Calling Circles
       * 01229 - Sub-dictionary
+  * Minimum Spanning Tree
+    * 00908 - Re-connecting Computer Sites (Kruskal's)
 * Others
   * 01203 - Argus
   * 10954 - Add All
