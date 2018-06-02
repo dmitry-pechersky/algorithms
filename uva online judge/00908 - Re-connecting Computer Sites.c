@@ -38,7 +38,7 @@ void disjointset_init(int n){
     int i;
     for(i = 0; i < n; i++){
         parents[i] = i;
-        sizes[i] = 0;
+        sizes[i] = 1;
     }
 }
 
@@ -80,7 +80,7 @@ void kruskal(){
         if(disjointset_find(edge_list[i].v) != disjointset_find(edge_list[i].u)){
             disjointset_union(edge_list[i].v, edge_list[i].u);
             new_cost += edge_list[i].w;
-            if(sizes[edge_list[i].v] == n)
+            if(sizes[disjointset_find(edge_list[i].v)] == n)
                 break;
         }
     }
