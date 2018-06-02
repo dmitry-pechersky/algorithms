@@ -45,8 +45,7 @@ def kruskal(n, edge_list):
     return cost
 
 if __name__ =='__main__':
-    t = int(input())
-    for i in range(t):
+    for i in range(int(input())):
         if i > 0:
             print()
         print(kruskal(*read_test_case()))
