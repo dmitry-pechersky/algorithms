@@ -47,6 +47,7 @@
   * Minimum Spanning Tree
     * 00908 - Re-connecting Computer Sites (Kruskal's)
     * 01174 - IP-TV (Kruskals's)
+    * 01208 - Oreon (Kruskals's)
 * Others
   * 01203 - Argus
   * 10954 - Add All
