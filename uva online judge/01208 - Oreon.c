@@ -59,7 +59,7 @@ void kruskal(){
         if(disjointset_find(edge_list[i].v) != disjointset_find(edge_list[i].u)){
             disjointset_union(edge_list[i].v, edge_list[i].u);
             mst_edge_list[j++] = edge_list[i];
-            if(sizes[disjointset_find(edge_list[i].v)] >= n)
+            if(j >= n - 1)
                 break;
         }
     }
