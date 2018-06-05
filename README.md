@@ -50,6 +50,6 @@
       * 01229 - Sub-dictionary
   * Minimum Spanning Tree
     * 00908 - Re-connecting Computer Sites (Kruskal's)
-    * 01174 - IP-TV (Kruskals's)
-    * 01208 - Oreon (Kruskals's)
+    * 01174 - IP-TV (Kruskal's)
+    * 01208 - Oreon (Kruskal's)
     * 10034 - Freckles (Prim's)
