@@ -12,19 +12,23 @@
 
 
 ## UVa Online Judge
-* Linked List
-  * 11988 - Broken Keyboard
-* Stack
-  * 00732 - Anagram by Stack
-* Graph Data Structures Problems
-  * 10895 - Matrix Transpose (transpose sparse matrix, adjacency list)
-  * 11550 - Demanding Dilemma (incidence matrix)
-  * 11991 - Easy Problem from Rujia Liu (adjacency list)
-* Union-Find Disjoint Sets
-  * 00793 - Network Connections
-  * 01197 - The Suspects
-* Tree-related Data Structures
-  * 00297 - Quadtrees
+* Data Structures
+  * Linked List
+    * 11988 - Broken Keyboard
+  * Stack
+    * 00732 - Anagram by Stack
+  * Priority Queue
+    * 01203 - Argus
+    * 10954 - Add All
+  * Graph
+    * 10895 - Matrix Transpose (transpose sparse matrix, adjacency list)
+    * 11550 - Demanding Dilemma (incidence matrix)
+    * 11991 - Easy Problem from Rujia Liu (adjacency list)
+  * Union-Find Disjoint Sets
+    * 00793 - Network Connections
+    * 01197 - The Suspects
+  * Tree-related Data Structures
+    * 00297 - Quadtrees
 * Graph
   * Graph Traversal
     * Just Graph Traversal
@@ -49,6 +53,3 @@
     * 01174 - IP-TV (Kruskals's)
     * 01208 - Oreon (Kruskals's)
     * 10034 - Freckles (Prim's)
-* Others
-  * 01203 - Argus
-  * 10954 - Add All
