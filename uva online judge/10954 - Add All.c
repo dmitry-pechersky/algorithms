@@ -1,8 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
+#define MAX_SIZE 5000
 
-int n, pqueue_size;
-int *nums = NULL, *pqueue = NULL;
+struct Heap{
+    int array[MAX_SIZE];
+    int size;
+};
 
 void swap(int *array, int i, int j){
     int temp = array[i];
@@ -10,78 +13,68 @@ void swap(int *array, int i, int j){
     array[j] = temp;
 }
 
-void pqueue_init(int max_size){
-    pqueue = realloc(pqueue, sizeof(int) * max_size);
-    pqueue_size = 0;
+void _heap_down(struct Heap *heap, int i){
+    int smallest_i = i;
+    int left_i = i * 2 + 1;
+    int right_i = i * 2 + 2;
+
+    if(left_i < heap->size && heap->array[left_i] < heap->array[smallest_i])
+        smallest_i = left_i;
+    if(right_i < heap->size && heap->array[right_i] < heap->array[smallest_i])
+        smallest_i = right_i;
+    if(smallest_i != i){
+        swap(heap->array, i, smallest_i);
+        _heap_down(heap, smallest_i);
+    }
 }
 
-void _pqueue_up(){
-    int i = pqueue_size - 1, parent_i;
-    while(i != 0 &&  pqueue[parent_i = (i - 1) / 2] > pqueue[i]){
-        swap(pqueue, i, parent_i);
+void heap_push(struct Heap *heap, int v){
+    int i, parent_i;
+    heap->array[heap->size++] = v;
+    i = heap->size - 1;
+    while(i != 0 &&  heap->array[parent_i = (i - 1) / 2] > heap->array[i]){
+        swap(heap->array, i, parent_i);
         i = parent_i;
     }
 }
 
-void _pqueue_down(){
-    int i = 0, left_i, right_i;
-    while( i < pqueue_size){
-        left_i = i * 2 + 1;
-        right_i = i * 2 + 2;
-        if(right_i < pqueue_size && pqueue[right_i] < pqueue[i] && pqueue[right_i] < pqueue[left_i]){
-            swap(pqueue, i, right_i);
-            i = right_i;
-        }else if(left_i < pqueue_size && pqueue[left_i] < pqueue[i]){
-            swap(pqueue, i, left_i);
-            i = left_i;            
-        }else{
-            break;
-        }
-    }
-}
-
-void pqueue_push(int v){
-    pqueue[pqueue_size++] = v;
-    _pqueue_up();
-}
-
-int pqueue_pop(){
-    int res = pqueue[0];
-    pqueue[0] = pqueue[--pqueue_size];
-    _pqueue_down();
+int heap_pop(struct Heap *heap){
+    int res = heap->array[0];
+    heap->array[0] = heap->array[--heap->size];
+    _heap_down(heap, 0);
     return res;
 }
 
-int read_test_case(){
-    int i;
+int read_test_case(struct Heap *heap){
+    int i, n, value;
     scanf("%d", &n);
     if(n == 0)
         return 0;
-    nums = realloc(nums, sizeof(int) * n);
     for(i = 0; i < n; i++){
-        scanf("%d", &nums[i]);
+        scanf("%d", &value);
+        heap_push(heap, value);
     }
     return 1;
 }
 
-int add_all(){
-    int i, a, b, cost = 0;
-    pqueue_init(n);
-    for(i = 0; i < n; i++){
-        pqueue_push(nums[i]);
-    }
-    while(pqueue_size > 1){
-        a = pqueue_pop();
-        b = pqueue_pop();
-        pqueue_push(a + b);
+int add_all(struct Heap *heap){
+    int a, b, cost = 0;
+    while(heap->size > 1){
+        a = heap_pop(heap);
+        b = heap_pop(heap);
+        heap_push(heap, a + b);
         cost += a + b;
     }
     return cost;
 }
 
 int main(){
-    while(read_test_case()){
-        printf("%d\n", add_all());
+    struct Heap heap;
+    while(1){
+        heap.size = 0;
+        if(! read_test_case(&heap))
+            break;
+        printf("%d\n", add_all(&heap));
     }
     return 0;
 }
