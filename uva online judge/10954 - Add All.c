@@ -28,8 +28,8 @@ void _heap_down(struct Heap *heap, int i){
 }
 
 void heap_push(struct Heap *heap, int v){
-    int i = heap->size, parent_i;
-    heap->array[heap->size++] = v;
+    int i = heap->size++, parent_i;
+    heap->array[i] = v;
     while(i != 0 &&  heap->array[parent_i = (i - 1) / 2] > heap->array[i]){
         swap(heap->array, i, parent_i);
         i = parent_i;
