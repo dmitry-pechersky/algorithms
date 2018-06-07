@@ -53,3 +53,6 @@
     * 01174 - IP-TV (Kruskal's)
     * 01208 - Oreon (Kruskal's)
     * 10034 - Freckles (Prim's)
+  * Single-Source Shortest Paths
+    * On Unweighted Graph: BFS
+      * 00924 - Spreading the News
