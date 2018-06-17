@@ -56,3 +56,5 @@
   * Single-Source Shortest Paths
     * On Unweighted Graph: BFS
       * 00924 - Spreading the News
+    * On Weighted Graph: Dijkstra’s
+      * 01112 - Mice and Maze
