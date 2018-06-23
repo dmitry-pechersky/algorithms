@@ -30,3 +30,4 @@ if __name__ == '__main__':
     for i in range(1, int(input()) + 1):
         cost = dijkstra(*read_test_case())
         print("Case #{}: {}".format(i, 'unreachable' if cost is None else cost))
+        

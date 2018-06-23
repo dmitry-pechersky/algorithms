@@ -58,3 +58,5 @@
     * On Weighted Graph: Dijkstra’s
       * 01112 - Mice and Maze
       * 10986 - Sending email
+    * On Graph with Negative Weight Cycle: Bellman Ford’s
+      * 00558 - Wormholes
