@@ -61,3 +61,5 @@
     * On Graph with Negative Weight Cycle: Bellman Ford’s
       * 00558 - Wormholes
       * 10449 - Traffic
+    * Floyd Warshall’s
+      * 00341 - Non-Stop Travel
