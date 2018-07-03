@@ -32,6 +32,7 @@
   * Graph Traversal
     * Just Graph Traversal
       * 00280 - Vertex
+      * 12582 - Wedding of Sultan
     * Flood Fill/Finding Connected Components
       * 00352 - The Seasonal War
       * 00469 - Wetlands of Florida
