@@ -1,4 +1,3 @@
-:q
 # Competitive programming challenges 
 ## HackerRank
 * Greedy
