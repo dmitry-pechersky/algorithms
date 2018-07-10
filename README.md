@@ -9,6 +9,8 @@
   * Abbreviation
   * The Longest Common Subsequence
   * The Maximum Subarray
+* Graph Theory
+  * The Value of Friendship (undirected graph, find sizes of connected components)
 
 ## UVa Online Judge
 * Data Structures
