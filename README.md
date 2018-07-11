@@ -40,6 +40,8 @@
       * 00459 - Graph Connectivity
       * 00469 - Wetlands of Florida
       * 00657 - The Die is Cast
+    * Topological Sort
+      * 10305 - Ordering Tasks
     * Bipartite Graph Check
       * 10004 - Bicoloring
       * 10505 - Montesco vs Capuleto
