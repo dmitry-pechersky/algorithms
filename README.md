@@ -51,9 +51,9 @@
       * 00315 - Network
       * 00796 - Critical Links
     * Finding Strongly Connected Components
-      * 00247 - Calling Circles (Tarjan)
-      * 01229 - Sub-dictionary (Targan)
-      * 10731 - Test (Tarjan)
+      * 00247 - Calling Circles (Tarjan's)
+      * 01229 - Sub-dictionary (Tarjan's)
+      * 10731 - Test (Tarjan's)
   * Minimum Spanning Tree
     * 00908 - Re-connecting Computer Sites (Kruskal's)
     * 01174 - IP-TV (Kruskal's)
