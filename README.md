@@ -61,6 +61,7 @@
     * 10034 - Freckles (Prim's)
   * Single-Source Shortest Paths
     * On Unweighted Graph: BFS
+      * 00336 - A Node Too Far
       * 00924 - Spreading the News
     * On Weighted Graph: Dijkstra’s
       * 01112 - Mice and Maze
@@ -68,9 +69,9 @@
     * On Graph with Negative Weight Cycle: Bellman Ford’s
       * 00558 - Wormholes
       * 10449 - Traffic
-    * Floyd Warshall’s
-      * 00341 - Non-Stop Travel
-      * 00423 - MPI Maelstrom
+  * All-Pairs Shortest Paths (Floyd Warshall’s)
+    * 00341 - Non-Stop Travel
+    * 00423 - MPI Maelstrom
   * Max Flow
     * 00259 - Software Allocation (Edmonds Karp’s)
     * 00820 - Internet Bandwidth 
