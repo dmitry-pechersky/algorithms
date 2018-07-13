@@ -64,6 +64,7 @@
       * 00336 - A Node Too Far
       * 00924 - Spreading the News
     * On Weighted Graph: Dijkstra’s
+      * 00929 - Number Maze 
       * 01112 - Mice and Maze
       * 10986 - Sending email
     * On Graph with Negative Weight Cycle: Bellman Ford’s
