@@ -76,3 +76,6 @@
   * Max Flow
     * 00259 - Software Allocation (Edmonds Karp’s)
     * 00820 - Internet Bandwidth 
+* String Processing
+  * Ad Hoc
+    * 00306 - Cipher
