@@ -79,3 +79,6 @@
 * String Processing
   * Ad Hoc
     * 00306 - Cipher
+  * String Matching
+    * 00455 - Periodic String (string period, KMP prefix function)
+
