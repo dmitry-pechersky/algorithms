@@ -82,4 +82,6 @@
   * String Matching
     * 00455 - Periodic String (string period, KMP prefix function)
     * 11475 - Extend to Palindromes (KMP)
-
+  * String Processing with DP
+    * 00526 - String Distance and Transform Process (string alignment/edit distance)
+ 
