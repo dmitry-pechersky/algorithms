@@ -84,4 +84,5 @@
     * 11475 - Extend to Palindromes (KMP)
   * String Processing with DP
     * 00526 - String Distance and Transform Process (string alignment/edit distance)
+    * 00531 - Compromise (longest common subsequence)
  
