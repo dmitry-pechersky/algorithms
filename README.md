@@ -11,6 +11,8 @@
   * The Maximum Subarray
 * Graph Theory
   * The Value of Friendship (undirected graph, find sizes of connected components)
+* Strings
+  * Common Child (longest common subsequence)
 
 ## UVa Online Judge
 * Data Structures
