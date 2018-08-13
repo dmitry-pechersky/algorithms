@@ -16,6 +16,8 @@
 
 ## UVa Online Judge
 * Data Structures
+  * Bit Manipulation
+    * 00594 - One Little, Two Little, Three Little Endians
   * Linked List
     * 11988 - Broken Keyboard
   * Stack
