@@ -37,6 +37,10 @@
     * 01197 - The Suspects
   * Tree-related Data Structures
     * 00297 - Quadtrees
+* Problem Solving Paradigms
+  * Complete Search
+    * Iterative
+      * 00102 - Ecological Bin Packing
 * Graph
   * Graph Traversal
     * Just Graph Traversal
