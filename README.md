@@ -41,6 +41,8 @@
   * Complete Search
     * Iterative
       * 00102 - Ecological Bin Packing
+    * Recursive Backtracking
+      * 00539 - The Settlers of Catan
 * Graph
   * Graph Traversal
     * Just Graph Traversal
