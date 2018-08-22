@@ -43,6 +43,8 @@
       * 00102 - Ecological Bin Packing
     * Recursive Backtracking
       * 00539 - The Settlers of Catan
+  * Divide and Conquer
+    * 10611 - Playboy Chimp
 * Graph
   * Graph Traversal
     * Just Graph Traversal
