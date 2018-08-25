@@ -46,8 +46,9 @@
   * Divide and Conquer
     * 10611 - Playboy Chimp
   * Dynamic Programming
-    * Max 1D Range Sum
-      * 00507 - Jill Rides Again
+    * Maximum Subarray
+      * 00507 - Jill Rides Again (maximum subarray sum)
+      * 00787 - Maximum Sub-sequence Product (maximum subarray product)
 * Graph
   * Graph Traversal
     * Just Graph Traversal
