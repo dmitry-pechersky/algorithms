@@ -45,6 +45,9 @@
       * 00539 - The Settlers of Catan
   * Divide and Conquer
     * 10611 - Playboy Chimp
+  * Dynamic Programming
+    * Max 1D Range Sum
+      * 00507 - Jill Rides Again
 * Graph
   * Graph Traversal
     * Just Graph Traversal
