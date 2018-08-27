@@ -49,6 +49,8 @@
     * Maximum Subarray
       * 00507 - Jill Rides Again (maximum subarray sum)
       * 00787 - Maximum Sub-sequence Product (maximum subarray product)
+    * Maximum Submatrix Sum
+      * 00108 - Maximum Sum
 * Graph
   * Graph Traversal
     * Just Graph Traversal
