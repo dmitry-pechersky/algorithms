@@ -51,6 +51,7 @@
       * 00787 - Maximum Sub-sequence Product (maximum subarray product)
     * Maximum Submatrix Sum
       * 00108 - Maximum Sum
+      * 00836 - Largest Submatrix
 * Graph
   * Graph Traversal
     * Just Graph Traversal
