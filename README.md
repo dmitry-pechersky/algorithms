@@ -52,6 +52,8 @@
     * Maximum Submatrix Sum
       * 00108 - Maximum Sum
       * 00836 - Largest Submatrix
+    * 0-1 Knapsack
+      * 00562 - Dividing Coins (subset sum)
 * Graph
   * Graph Traversal
     * Just Graph Traversal
