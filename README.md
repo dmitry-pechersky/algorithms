@@ -54,6 +54,7 @@
       * 00836 - Largest Submatrix
     * 0-1 Knapsack
       * 00562 - Dividing Coins (subset sum)
+      * 00990 - Diving for Gold
 * Graph
   * Graph Traversal
     * Just Graph Traversal
