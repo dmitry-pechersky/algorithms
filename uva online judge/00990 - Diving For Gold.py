@@ -25,14 +25,13 @@ def knapsack(t, w, n, treasures):
                 cache[i][j] = cache[i - 1][j]
             else:
                 cache[i][j] = max(cache[i - 1][j - ti] + vi, cache[i - 1][j])
-    i, j = n - 1, t
+    j = t
     selected_treasures = [False] * n
-    while i > 0:
+    for i in range(n - 1, 0, -1):
         di, vi, ti = treasures[i]
         if cache[i][j] != cache[i - 1][j]:
             j -= ti
             selected_treasures[i] = True
-        i -= 1
     if j > 0:
         selected_treasures[0] = True
     return cache[n - 1][t], selected_treasures
