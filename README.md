@@ -55,6 +55,8 @@
     * 0-1 Knapsack
       * 00562 - Dividing Coins (subset sum)
       * 00990 - Diving for Gold
+    * Coin Change
+      * 00147 - Dollars
 * Graph
   * Graph Traversal
     * Just Graph Traversal
