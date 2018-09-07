@@ -57,6 +57,8 @@
       * 00990 - Diving for Gold
     * Coin Change
       * 00147 - Dollars
+    * Traveling Salesman Problem
+      * 00216 - Getting in Line
 * Graph
   * Graph Traversal
     * Just Graph Traversal
