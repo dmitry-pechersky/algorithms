@@ -59,6 +59,8 @@
       * 00147 - Dollars
     * Traveling Salesman Problem
       * 00216 - Getting in Line
+    * Others
+      * 00116 - Unidirectional TSP
 * Graph
   * Graph Traversal
     * Just Graph Traversal
