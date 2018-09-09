@@ -41,6 +41,7 @@
   * Complete Search
     * Iterative
       * 00102 - Ecological Bin Packing
+      * 00256 - Quirksome Squares
     * Recursive Backtracking
       * 00539 - The Settlers of Catan
   * Divide and Conquer
