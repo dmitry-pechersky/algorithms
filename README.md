@@ -61,6 +61,7 @@
       * 00216 - Getting in Line
     * Others
       * 00116 - Unidirectional TSP
+      * 01261 - String Popping
 * Graph
   * Graph Traversal
     * Just Graph Traversal
