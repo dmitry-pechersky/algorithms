@@ -44,6 +44,7 @@
       * 00256 - Quirksome Squares
     * Recursive Backtracking
       * 00539 - The Settlers of Catan
+      * 00628 - Passwords
   * Divide and Conquer
     * 10611 - Playboy Chimp
   * Dynamic Programming
