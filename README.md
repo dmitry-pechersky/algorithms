@@ -4,7 +4,7 @@
   * Max Min
   * Goodland Electricity
   * Chief Hopper
-* Dynamic programming  
+* Dynamic programming
   * Equal
   * Abbreviation
   * The Longest Common Subsequence
@@ -47,6 +47,7 @@
       * 00628 - Passwords
   * Divide and Conquer
     * 10611 - Playboy Chimp
+    * 11881 - Internal Rate of Return
   * Dynamic Programming
     * Maximum Subarray
       * 00507 - Jill Rides Again (maximum subarray sum)
