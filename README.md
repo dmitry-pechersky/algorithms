@@ -48,6 +48,8 @@
   * Divide and Conquer
     * 10611 - Playboy Chimp
     * 11881 - Internal Rate of Return
+  * Greedy
+    * 00410 - Station Balance (load balancing)
   * Dynamic Programming
     * Maximum Subarray
       * 00507 - Jill Rides Again (maximum subarray sum)
