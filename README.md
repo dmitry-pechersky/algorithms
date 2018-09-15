@@ -50,6 +50,7 @@
     * 11881 - Internal Rate of Return
   * Greedy
     * 00410 - Station Balance (load balancing)
+    * 10020 - Minimal Coverage (interval covering)
   * Dynamic Programming
     * Maximum Subarray
       * 00507 - Jill Rides Again (maximum subarray sum)
