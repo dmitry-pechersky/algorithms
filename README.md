@@ -51,6 +51,7 @@
   * Greedy
     * 00410 - Station Balance (load balancing)
     * 10020 - Minimal Coverage (interval covering)
+    * 10026 - Shoemaker’s Problem
   * Dynamic Programming
     * Maximum Subarray
       * 00507 - Jill Rides Again (maximum subarray sum)
