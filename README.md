@@ -53,9 +53,10 @@
     * 10020 - Minimal Coverage (interval covering)
     * 10026 - Shoemaker’s Problem
   * Dynamic Programming
-    * Maximum Subarray
-      * 00507 - Jill Rides Again (maximum subarray sum)
+    * Maximum Subarray Sum
+      * 00507 - Jill Rides Again
       * 00787 - Maximum Sub-sequence Product (maximum subarray product)
+      * 10684 - The jackpot
     * Maximum Submatrix Sum
       * 00108 - Maximum Sum
       * 00836 - Largest Submatrix
@@ -125,4 +126,3 @@
     * 00526 - String Distance and Transform Process (string alignment/edit distance)
     * 00531 - Compromise (longest common subsequence)
     * 11151 - Longest Palindrome (longest palindromic substring)
- 
