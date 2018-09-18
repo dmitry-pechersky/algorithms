@@ -61,6 +61,8 @@
       * 00108 - Maximum Sum
       * 00836 - Largest Submatrix
       * 00983 - Localized Summing for Blurring
+    * Longest Increasing Subsequence
+      * 00231 - Testing the CATCHER (greedy, divide and conquer)
     * 0-1 Knapsack
       * 00562 - Dividing Coins (subset sum)
       * 00990 - Diving for Gold
