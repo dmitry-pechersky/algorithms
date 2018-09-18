@@ -60,6 +60,7 @@
     * Maximum Submatrix Sum
       * 00108 - Maximum Sum
       * 00836 - Largest Submatrix
+      * 00983 - Localized Summing for Blurring
     * 0-1 Knapsack
       * 00562 - Dividing Coins (subset sum)
       * 00990 - Diving for Gold
