@@ -67,6 +67,7 @@
     * 0-1 Knapsack
       * 00562 - Dividing Coins (subset sum)
       * 00990 - Diving for Gold
+      * 01213 - Sum of Different Primes
     * Coin Change
       * 00147 - Dollars
     * Traveling Salesman Problem
