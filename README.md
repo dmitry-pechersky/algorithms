@@ -70,6 +70,7 @@
       * 01213 - Sum of Different Primes
     * Coin Change
       * 00147 - Dollars
+      * 00166 - Making Change
     * Traveling Salesman Problem
       * 00216 - Getting in Line
     * Others
