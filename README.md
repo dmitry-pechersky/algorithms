@@ -77,6 +77,7 @@
       * 00116 - Unidirectional TSP
       * 01261 - String Popping
       * 10003 - Cutting Sticks
+      * 10036 - Divisibility
 * Graph
   * Graph Traversal
     * Just Graph Traversal
