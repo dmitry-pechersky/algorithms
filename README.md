@@ -4,6 +4,7 @@
   * Max Min
   * Goodland Electricity
   * Chief Hopper
+  * Angry Children 2
 * Dynamic programming
   * Equal
   * Abbreviation
