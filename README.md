@@ -10,6 +10,7 @@
   * Abbreviation
   * The Longest Common Subsequence
   * The Maximum Subarray
+  * The Longest Increasing Subsequence
 * Graph Theory
   * The Value of Friendship (undirected graph, find sizes of connected components)
 * Strings
