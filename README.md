@@ -83,6 +83,7 @@
 * Graph
   * Graph Traversal
     * Just Graph Traversal
+      * 00118 - Mutant Flatworld Explorers
       * 00280 - Vertex
       * 12582 - Wedding of Sultan
     * Flood Fill/Finding Connected Components
