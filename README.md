@@ -11,8 +11,13 @@
   * The Longest Common Subsequence
   * The Maximum Subarray
   * The Longest Increasing Subsequence
-* Graph Theory
-  * The Value of Friendship (undirected graph, find sizes of connected components)
+* Graph
+  * Graph Traversal
+    * Flood Fill/Finding Connected Components
+      * The Value of Friendship (undirected graph, find sizes of connected components)
+  * Single-Source Shortest Paths
+    * On Weighted Graph: Dijkstra’s
+      * Jack goes to Rapture
 * Strings
   * Common Child (longest common subsequence)
 
