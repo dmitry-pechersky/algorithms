@@ -1,5 +1,7 @@
 # Competitive programming challenges 
 ## HackerRank
+* Search
+  * Hackerland Radio Transmitters
 * Greedy
   * Max Min
   * Goodland Electricity
