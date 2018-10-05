@@ -2,6 +2,7 @@
 ## HackerRank
 * Search
   * Hackerland Radio Transmitters
+  * Gridland Metro
 * Greedy
   * Max Min
   * Goodland Electricity
