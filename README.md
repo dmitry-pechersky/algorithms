@@ -3,6 +3,7 @@
 * Search
   * Hackerland Radio Transmitters
   * Gridland Metro
+  * Minimum Loss
 * Greedy
   * Max Min
   * Goodland Electricity
