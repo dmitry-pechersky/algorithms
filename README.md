@@ -19,6 +19,7 @@
   * The Value of Friendship (undirected graph, find sizes of connected components)
   * Journey to the Moon (find sizes of connected components)
   * Jack goes to Rapture (single-source shortest paths dijkstra's)
+  * Even Tree (dfs count nodes)
 * Strings
   * Common Child (longest common subsequence)
 
