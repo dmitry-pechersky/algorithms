@@ -16,12 +16,9 @@
   * The Maximum Subarray
   * The Longest Increasing Subsequence
 * Graph
-  * Graph Traversal
-    * Flood Fill/Finding Connected Components
-      * The Value of Friendship (undirected graph, find sizes of connected components)
-  * Single-Source Shortest Paths
-    * On Weighted Graph: Dijkstra’s
-      * Jack goes to Rapture
+  * The Value of Friendship (undirected graph, find sizes of connected components)
+  * Journey to the Moon (find sizes of connected components)
+  * Jack goes to Rapture (single-source shortest paths dijkstra's)
 * Strings
   * Common Child (longest common subsequence)
 
