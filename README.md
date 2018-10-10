@@ -20,6 +20,7 @@
   * Journey to the Moon (find sizes of connected components)
   * Jack goes to Rapture (single-source shortest paths dijkstra's)
   * Even Tree (dfs count nodes)
+  * Roads and Libraries (connected components)
 * Strings
   * Common Child (longest common subsequence)
 
