@@ -102,6 +102,7 @@
       * 00657 - The Die is Cast
       * 00758 - The Same Game
     * Topological Sort
+      * 00124 - Following Orders
       * 10305 - Ordering Tasks
     * Bipartite Graph Check
       * 10004 - Bicoloring
@@ -115,6 +116,7 @@
       * 00247 - Calling Circles (Tarjan's)
       * 01229 - Sub-dictionary (Tarjan's)
       * 10731 - Test (Tarjan's)
+      * 11504 - Dominos.py (Tarjan's)
   * Minimum Spanning Tree
     * 00908 - Re-connecting Computer Sites (Kruskal's)
     * 01174 - IP-TV (Kruskal's)
