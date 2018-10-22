@@ -116,7 +116,7 @@
       * 00247 - Calling Circles (Tarjan's)
       * 01229 - Sub-dictionary (Tarjan's)
       * 10731 - Test (Tarjan's)
-      * 11504 - Dominos.py (Tarjan's)
+      * 11504 - Dominos (Tarjan's)
   * Minimum Spanning Tree
     * 00908 - Re-connecting Computer Sites (Kruskal's)
     * 01174 - IP-TV (Kruskal's)
