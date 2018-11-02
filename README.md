@@ -111,6 +111,7 @@
       * 11396 - Claw Decomposition
     * Finding Articulation Points/Bridges
       * 00315 - Network
+      * 00610 - Street Directions
       * 00796 - Critical Links
     * Finding Strongly Connected Components
       * 00247 - Calling Circles (Tarjan's)
@@ -118,6 +119,7 @@
       * 10731 - Test (Tarjan's)
       * 11504 - Dominos (Tarjan's)
   * Minimum Spanning Tree
+    * 00534 - Frogger (Kruskal's)
     * 00908 - Re-connecting Computer Sites (Kruskal's)
     * 01174 - IP-TV (Kruskal's)
     * 01208 - Oreon (Kruskal's)
