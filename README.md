@@ -27,7 +27,8 @@
 ## UVa Online Judge
 * Data Structures
   * 1D Array Manipulation
-    * 00414 - Machined Surfaces 
+    * 00414 - Machined Surfaces
+    * 00467 - Synching Signals 
   * Bit Manipulation
     * 00594 - One Little, Two Little, Three Little Endians
   * Linked List
