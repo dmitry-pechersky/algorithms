@@ -29,6 +29,8 @@
   * 1D Array Manipulation
     * 00414 - Machined Surfaces
     * 00467 - Synching Signals 
+  * 2D Array Manipulation
+    * 00101 - The Blocks Problem
   * Bit Manipulation
     * 00594 - One Little, Two Little, Three Little Endians
   * Linked List
