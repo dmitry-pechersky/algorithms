@@ -32,6 +32,8 @@
   * 2D Array Manipulation
     * 00101 - The Blocks Problem
     * 00434 - Matty's Block
+  * Collections
+    * 00123 - Searching Quickly
   * Bit Manipulation
     * 00594 - One Little, Two Little, Three Little Endians
     * 11933 - Splitting Numbers
