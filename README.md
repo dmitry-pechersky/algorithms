@@ -40,10 +40,12 @@
   * Linked List
     * 11988 - Broken Keyboard
   * Stack
+    * 00127 - Accordian Patience
     * 00514 - Rails
     * 00732 - Anagram by Stack
   * Queue
     * 00540 - Team Queue
+    * 10172 - The Lonesome Cargo Distributor
   * Priority Queue
     * 01203 - Argus
     * 10954 - Add All
