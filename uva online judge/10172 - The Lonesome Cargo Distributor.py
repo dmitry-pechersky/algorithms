@@ -22,4 +22,3 @@ if __name__ == '__main__':
             minutes += 2
             j = (j + 1) % n
         print(minutes - 2)
-            
