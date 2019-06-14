@@ -46,6 +46,8 @@
   * Queue
     * 00540 - Team Queue
     * 10172 - The Lonesome Cargo Distributor
+  * Map
+    * 00417 - Word Index
   * Priority Queue
     * 01203 - Argus
     * 10954 - Add All
