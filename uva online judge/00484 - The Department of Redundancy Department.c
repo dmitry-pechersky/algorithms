@@ -3,9 +3,7 @@
 #define HASH_SIZE 28151
 #define EMPTY -1
 
-int table[HASH_SIZE];
-int values[HASH_SIZE];
-int order[HASH_SIZE];
+int table[HASH_SIZE], values[HASH_SIZE], order[HASH_SIZE];
 
 int _hash(int key, int i){
     return (((unsigned int) key) % HASH_SIZE + i * (1 + ((unsigned int) key) % (HASH_SIZE - 1))) % HASH_SIZE;
@@ -20,7 +18,7 @@ int _hash_insert(int table[], int key){
             return hash;
         }
     }
-    assert(0);
+    return -1;
 }
 
 int _hash_search(int table[], int key){
@@ -47,6 +45,7 @@ int main(){
             values[j] += 1;
         }else{
             j = _hash_insert(table, value);
+            assert(j >= 0);
             values[j] = 1;
             order[values_cnt++] = value;
         }
@@ -54,6 +53,5 @@ int main(){
     for(i = 0; i < values_cnt; i++){
         printf("%d %d\n", order[i], values[_hash_search(table, order[i])]);
     }
-
     return 0;
 }
