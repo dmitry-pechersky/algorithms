@@ -1,5 +1,7 @@
 # Competitive programming challenges 
 ## HackerRank
+* Arrays
+  * New Year Chaos
 * Search
   * Hackerland Radio Transmitters
   * Gridland Metro
