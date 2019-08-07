@@ -1,14 +1,22 @@
 if __name__ == '__main__':
     n, m = (int(i) for i in input().split())
-    array = [0] * n
+    array = []
     for i in range(m):
         a, b, k = (int(i) for i in input().split())
-        array[a - 1] += k
-        if b < n:
-            array[b] -= k
-    max_value, value = 0, 0
-    for i in range(n):
-        value += array[i]
-        if value > max_value:
-            max_value = value
-    print(max_value)
+        array.append((a, k))
+        array.append((b + 1,  -k))
+    value, total, max_total = 0, 0, 0
+    for i, k in sorted(array, key=lambda x: x[0]):
+        if value != i:
+            if total > max_total:
+                max_total = total
+            value = i
+            total += k
+        else:
+            total += k
+    if total > max_total:
+        max_total = total
+    print(max_total)
+
+
+    
