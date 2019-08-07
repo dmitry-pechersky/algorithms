@@ -2,6 +2,7 @@
 ## HackerRank
 * Arrays
   * New Year Chaos
+  * Minimum Swaps 2
 * Search
   * Hackerland Radio Transmitters
   * Gridland Metro
