@@ -3,6 +3,7 @@
 * Arrays
   * New Year Chaos
   * Minimum Swaps 2
+  * Array Manipulation
 * Search
   * Hackerland Radio Transmitters
   * Gridland Metro
