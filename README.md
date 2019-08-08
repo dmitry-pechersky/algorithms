@@ -6,6 +6,7 @@
   * Array Manipulation
 * Dictionaries and Hashmaps
   * Count Triplets
+  * Frequency Queries
 * Search
   * Hackerland Radio Transmitters
   * Gridland Metro
