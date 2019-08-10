@@ -1,4 +1,9 @@
 # Competitive programming challenges 
+
+## HackerEarth
+* Stack
+  * Capital of Hills
+
 ## HackerRank
 * Arrays
   * New Year Chaos
