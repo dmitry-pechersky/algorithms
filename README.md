@@ -3,6 +3,7 @@
 ## HackerEarth
 * Stack
   * Capital of Hills
+  * Signal Range
 
 ## HackerRank
 * Arrays
