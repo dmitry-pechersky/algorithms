@@ -4,6 +4,8 @@
 * Stack
   * Capital of Hills
   * Signal Range
+* Queue
+  * Little Monk and Goblet of Fire
 
 ## HackerRank
 * Arrays
