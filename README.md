@@ -6,6 +6,8 @@
   * Signal Range
 * Queue
   * Little Monk and Goblet of Fire
+* Hash Tables
+  * Yet Another Valentine's Proposal
 
 ## HackerRank
 * Arrays
