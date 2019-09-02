@@ -8,7 +8,7 @@
   * Little Monk and Goblet of Fire
 * Hash Tables
   * Yet Another Valentine's Proposal
-
+  * The Electric Type
 ## HackerRank
 * Arrays
   * New Year Chaos
