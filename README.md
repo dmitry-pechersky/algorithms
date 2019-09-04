@@ -9,6 +9,8 @@
 * Hash Tables
   * Yet Another Valentine's Proposal
   * The Electric Type
+* Binary/ N-ary Trees
+  * Monk and Tree Counting
 ## HackerRank
 * Arrays
   * New Year Chaos
