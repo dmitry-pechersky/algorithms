@@ -12,6 +12,8 @@
 * Binary/N-ary Trees
   * Monk and Tree Counting
   * Gandhi Tree March
+* Binary Search Tree
+  * Yatin plays PUBG
 ## HackerRank
 * Arrays
   * New Year Chaos
