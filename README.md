@@ -14,6 +14,7 @@
   * Gandhi Tree March
 * Binary Search Tree
   * Yatin plays PUBG
+  * Little Monk and Swaps
 ## HackerRank
 * Arrays
   * New Year Chaos
