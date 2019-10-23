@@ -15,6 +15,8 @@
 * Binary Search Tree
   * Yatin plays PUBG
   * Little Monk and Swaps
+* Trie (Keyword Tree)
+  * Cost of Data
 ## HackerRank
 * Arrays
   * New Year Chaos
