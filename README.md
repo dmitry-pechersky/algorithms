@@ -17,6 +17,7 @@
   * Little Monk and Swaps
 * Trie (Keyword Tree)
   * Cost of Data
+  * Word Queries
 ## HackerRank
 * Arrays
   * New Year Chaos
