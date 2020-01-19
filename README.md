@@ -18,6 +18,9 @@
 * Trie (Keyword Tree)
   * Cost of Data
   * Word Queries
+* Graphs
+  * Breadth First Search
+    * Minimum cost
 ## HackerRank
 * Arrays
   * New Year Chaos
