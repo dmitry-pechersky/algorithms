@@ -21,6 +21,8 @@
 * Graphs
   * Breadth First Search
     * Minimum cost
+* Dynamic Programming
+  * Knapsacks (0-1 Knapsack big weights)
 ## HackerRank
 * Arrays
   * New Year Chaos
