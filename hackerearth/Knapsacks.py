@@ -1,5 +1,3 @@
-INF = float('Inf')
-
 def dp_knapsack_big_weights(n, c, costs, weights):
     max_cost = 0
     total_cost = sum(costs)
