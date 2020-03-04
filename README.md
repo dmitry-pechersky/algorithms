@@ -23,6 +23,7 @@
     * Minimum cost
 * Dynamic Programming
   * Knapsacks (0-1 Knapsack big weights)
+  * Prize Money
 ## HackerRank
 * Arrays
   * New Year Chaos
