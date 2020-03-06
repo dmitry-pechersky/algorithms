@@ -1,5 +1,7 @@
 # Competitive programming challenges 
-
+## GeeksForGeeks
+* Dynamic programming
+  * Minimum Operations
 ## HackerEarth
 * Stack
   * Capital of Hills
