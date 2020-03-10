@@ -2,6 +2,7 @@
 ## GeeksForGeeks
 * Dynamic programming
   * Minimum Operations
+  * Increasing Sub Sequence
 ## HackerEarth
 * Stack
   * Capital of Hills
