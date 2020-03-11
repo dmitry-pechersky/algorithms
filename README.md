@@ -3,6 +3,7 @@
 * Dynamic programming
   * Minimum Operations
   * Increasing Sub Sequence
+  * Count number of hops
 ## HackerEarth
 * Stack
   * Capital of Hills
