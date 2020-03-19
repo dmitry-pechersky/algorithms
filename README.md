@@ -1,7 +1,7 @@
 # Competitive programming challenges 
 ## GeeksForGeeks
 * Tree
-  * Binary Tree to DLL
+  * Binary Tree to DLL (tree traversal linked list)
 * Dynamic programming
   * Minimum Operations
   * Increasing Sub Sequence
