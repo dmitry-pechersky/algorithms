@@ -3,6 +3,7 @@
 * Tree
   * Binary Tree to DLL (tree traversal linked list)
   * Count Number of SubTrees having given Sum
+  * Array to BST
 * Dynamic programming
   * Minimum Operations
   * Increasing Sub Sequence
