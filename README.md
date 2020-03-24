@@ -1,5 +1,7 @@
 # Competitive programming challenges 
 ## GeeksForGeeks
+* Stack
+  * Next larger element
 * Tree
   * Binary Tree to DLL (tree traversal linked list)
   * Count Number of SubTrees having given Sum
