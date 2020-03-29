@@ -2,6 +2,7 @@
 ## GeeksForGeeks
 * Stack
   * Next larger element
+  * Longest valid Parentheses
 * Tree
   * Binary Tree to DLL (tree traversal linked list)
   * Count Number of SubTrees having given Sum
