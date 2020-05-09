@@ -34,6 +34,8 @@
 * Graphs
   * Breadth First Search
     * Minimum cost
+  * Bellman Ford's
+    * Monk's Business Day
 * Dynamic Programming
   * Knapsacks (0-1 Knapsack big weights)
   * Prize Money
