@@ -34,6 +34,8 @@
 * Graphs
   * Breadth First Search
     * Minimum cost
+  * Dijkstra's
+    * Booze First
   * Bellman Ford's
     * Monk's Business Day
 * Dynamic Programming
