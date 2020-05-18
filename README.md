@@ -36,6 +36,7 @@
     * Minimum cost
   * Dijkstra's
     * Booze First
+    * The Parking Slot
   * Bellman Ford's
     * Monk's Business Day
 * Dynamic Programming
