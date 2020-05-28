@@ -35,6 +35,7 @@
   * Depth First Search
     * Little Monk and Edge Count
     * Kingdom Of Monkeys
+    * Monk's birthday treat
   * Breadth First Search
     * Minimum cost
   * Dijkstra's
