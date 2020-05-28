@@ -32,6 +32,8 @@
   * Cost of Data
   * Word Queries
 * Graphs
+  * Depth First Search
+    * Little Monk and Edge Count
   * Breadth First Search
     * Minimum cost
   * Dijkstra's
