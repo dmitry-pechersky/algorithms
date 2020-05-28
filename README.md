@@ -34,6 +34,7 @@
 * Graphs
   * Depth First Search
     * Little Monk and Edge Count
+    * Kingdom Of Monkeys
   * Breadth First Search
     * Minimum cost
   * Dijkstra's
