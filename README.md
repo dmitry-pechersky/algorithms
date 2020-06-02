@@ -38,6 +38,7 @@
     * Monk's birthday treat
   * Breadth First Search
     * Minimum cost
+    * Travel diaries
   * Dijkstra's
     * Booze First
     * The Parking Slot
