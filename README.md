@@ -39,6 +39,7 @@
   * Breadth First Search
     * Minimum cost
     * Travel diaries
+    * Just shortest distance problem
   * Dijkstra's
     * Booze First
     * The Parking Slot
