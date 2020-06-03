@@ -40,6 +40,8 @@
     * Minimum cost
     * Travel diaries
     * Just shortest distance problem
+  * Minimum Spanning Tree 
+    * 3 types
   * Dijkstra's
     * Booze First
     * The Parking Slot
