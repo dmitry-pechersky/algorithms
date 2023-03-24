@@ -2,14 +2,14 @@ struct Solution {}
 
 impl Solution {
     pub fn unique_paths(m: i32, n: i32) -> i32 {
-        let (m, n) = (m as usize, n as usize);
-        let mut grid = [[1u32; 100]; 100];
-        for i in 1..m {
-            for j in 1..n {
-                grid[i][j] = grid[i - 1][j] + grid[i][j - 1];
+        let (n, m) = (n as usize, m as usize);
+        let mut dp = vec![1; n];
+        for _ in 1..m {
+            for i in 1..n {
+                dp[i] += dp[i - 1];
             }
-        }
-        grid[m - 1][n - 1] as i32
+        }       
+        dp[n - 1] 
     }
 }
 

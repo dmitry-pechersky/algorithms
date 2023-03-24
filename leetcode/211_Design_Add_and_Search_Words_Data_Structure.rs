@@ -1,77 +1,73 @@
-#[derive(Debug)]
 struct Node {
-    array: [Option<Box<Node>>; 26],
+    children: [Option<Box<Node>>; Self::CHAR_N],
     end: bool,
+}
+
+impl Node {
+    const CHAR_N: usize = 26;
+    const CHAR_SHIFT: u8 = b'a';
+
+    fn new() -> Self {
+        const INIT: Option<Box<Node>> = None; 
+        Self { children: [INIT; Node::CHAR_N], end: false }
+    }
 }
 
 struct WordDictionary {
     root: Box<Node>,
-
-}
-
-impl Node {
-    fn new() -> Self {
-        const INIT: Option<Box<Node>> = None; 
-        Node {
-            array: [INIT; 26],
-            end: false,
-        }
-    }
 }
 
 impl WordDictionary {
     fn new() -> Self {
-        WordDictionary {
-            root: Box::new(Node::new()),
-        }
+        Self { root: Box::new(Node::new()) }
     }
     
     fn add_word(&mut self, word: String) {
-        let mut current = &mut self.root;
-        for ch in word.as_bytes(){
-            current = current.array[(*ch - b'a') as usize].get_or_insert(Box::new(Node::new()));
+        let mut node = &mut self.root;
+        for ch in word.as_bytes().iter().map(|v| v - Node::CHAR_SHIFT) {
+            if node.children[ch as usize].is_none() {
+                node.children[ch as usize] = Some(Box::new(Node::new()));
+            }
+            node = node.children[ch as usize].as_mut().unwrap();
         }
-        current.end = true;        
+        node.end = true;
     }
     
     fn search(&self, word: String) -> bool {
-        self._search_rec(&self.root, word.as_bytes(), 0)
-    }
-
-    fn _search_rec(&self, node: &Box<Node>, word: &[u8], i: usize) -> bool {
-        if i < word.len() {
-            let ch = word[i];
-            if ch == b'.' {
-                for option in node.array.iter() {
-                    if option.is_some() && self._search_rec(option.as_ref().unwrap(), word, i + 1) {
-                        return true;
-                    } 
-                }
-                return false
+        fn rec(node: &Box<Node>, word: &[u8], i: usize) -> bool {
+            if i == word.len() {
+                node.end
             } else {
-                let option = node.array[(ch - b'a') as usize].as_ref();
-                return option.is_some() && self._search_rec(option.unwrap(), word, i + 1);
-            }
+                if word[i] == b'.' {
+                    for next_node in &node.children {
+                        if let Some(next_node) = next_node.as_ref() {
+                            if rec(next_node, word, i + 1) {
+                                return true
+                            }
+                        }
+                    }
+                    false
+                } else if let Some(next_node)  = node.children[(word[i] - Node::CHAR_SHIFT) as usize].as_ref() {
+                    rec(next_node, word, i + 1)
+                } else {
+                    false
+                }
+            } 
         }
-        node.end
+        rec(&self.root, word.as_bytes(), 0)
     }
 }
 
 
+#[test]
+fn test_1() {
+    let mut word_dictionary = WordDictionary::new();
+    word_dictionary.add_word("bad".to_string());
+    word_dictionary.add_word("dad".to_string());
+    word_dictionary.add_word("mad".to_string());
+    assert!(!word_dictionary.search("pad".to_string())); 
+    assert!(word_dictionary.search("bad".to_string())); 
+    assert!(word_dictionary.search(".ad".to_string())); 
+    assert!(word_dictionary.search("b..".to_string())); 
+}    
 
-#[cfg(test)]
-mod word_dictionary_test {
-    use super::*;
-
-    #[test]
-    fn test_1() {
-        let mut word_dictionary = WordDictionary::new();
-        word_dictionary.add_word("bad".to_string());
-        word_dictionary.add_word("dad".to_string());
-        word_dictionary.add_word("mad".to_string());
-        assert!(! word_dictionary.search("pad".to_string())); 
-        assert!(word_dictionary.search("bad".to_string())); 
-        assert!(word_dictionary.search(".ad".to_string())); 
-        assert!(word_dictionary.search("b..".to_string())); 
-    }    
-}

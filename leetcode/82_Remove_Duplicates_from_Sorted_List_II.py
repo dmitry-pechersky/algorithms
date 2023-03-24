@@ -1,5 +1,5 @@
 import unittest
-from typing import Optional
+from typing import Optional, List
 
 class ListNode:
     def __init__(self, val=0, next=None) -> None:
@@ -35,18 +35,23 @@ class Solution:
         return dummy_head.next
 
 class TestDeleteDuplicates(unittest.TestCase):
+
+    @classmethod
+    def list_to_listnode(cls, lis: List[int]) -> Optional[ListNode]:
+        if len(lis) > 0:
+            return ListNode(lis[0], cls.list_to_listnode(lis[1:]))
+        return None
+
+
     def test_1(self) -> None:
         self.assertEqual(
-            Solution().deleteDuplicates(
-                ListNode(1, ListNode(2, (ListNode(3 ,ListNode(3 ,ListNode(4, ListNode(4, ListNode(5))))))))
-                ),
-            ListNode(1, ListNode(2, ListNode(5)))
+            Solution().deleteDuplicates(self.list_to_listnode([1,2,3,3,4,4,5])),
+            self.list_to_listnode([1,2,5])
         )
 
     def test_2(self) -> None:
         self.assertEqual(
-            Solution().deleteDuplicates(
-                ListNode(1 ,ListNode(1 ,ListNode(1, ListNode(2, ListNode(3)))))
-                ),
-            ListNode(2, ListNode(3))
+            Solution().deleteDuplicates(self.list_to_listnode([1,1,1,2,3])),
+            self.list_to_listnode([2,3])
         )
+

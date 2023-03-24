@@ -1,67 +1,71 @@
+
 struct Node {
-    alp: [Option<Box<Node>>; 26],
-    is_word: bool,
+    children: [Option<Box<Node>>; Trie::CHAR_N],
+    terminal: bool,
+}
+
+impl Node {
+    fn new() -> Self {
+        const INIT: Option<Box<Node>> = None;
+        Self { children: [INIT; Trie::CHAR_N], terminal: false}
+    }
 }
 
 struct Trie {
     root: Box<Node>,
 }
 
-impl Node {
-    fn new() -> Self {
-        const INIT: Option<Box<Node>> = None;
-        Node {alp: [INIT; 26], is_word: false}
-    }
-}
-
 impl Trie {
+
+    const CHAR_N: usize = 26;
+    const CHAR_SHIFT: u8 = b'a';
+
     fn new() -> Self {
-        Trie { root: Box::new(Node::new()) }
+        Self { root: Box::new(Node::new()) }
     }
     
     fn insert(&mut self, word: String) {
         let mut node = &mut self.root;
-        for &ch in word.as_bytes() {
-            node = node.alp[(ch - b'a') as usize].get_or_insert(Box::new(Node::new()));
+        for ch in word.as_bytes().iter().map(|v| v - Trie::CHAR_SHIFT) {
+            if node.children[ch as usize].is_none() {
+                node.children[ch as usize] = Some(Box::new(Node::new()));
+            }
+            node = node.children[ch as usize].as_mut().unwrap();
         }
-        node.is_word = true;
+        node.terminal = true;
     }
     
     fn search(&self, word: String) -> bool {
         let mut node = &self.root;
-        for &ch in word.as_bytes() {
-            match &node.alp[(ch - b'a') as usize] {
-                Some(v) => { node = v },
-                None => { return false },
-            }
+        for ch in word.as_bytes().iter().map(|v| v - Trie::CHAR_SHIFT) {
+            match &node.children[ch as usize] {
+                Some(child) => { node = child },
+                None => { return false}
+            } 
         }
-        node.is_word
+        node.terminal
     }
     
     fn starts_with(&self, prefix: String) -> bool {
         let mut node = &self.root;
-        for &ch in prefix.as_bytes() {
-            match &node.alp[(ch - b'a') as usize] {
-                Some(v) => { node = v },
-                None => { return false },
-            }
+        for ch in prefix.as_bytes().iter().map(|v| v - Trie::CHAR_SHIFT) {
+            match &node.children[ch as usize] {
+                Some(child) => { node = child },
+                None => { return false }
+            } 
         }
-        true
+        true        
     }
 }
 
-#[cfg(test)]
-mod trie_test {
-    use super::*;
+#[test]
+fn test_1() {
+    let mut trie = Trie::new();
+    trie.insert("apple".to_string());
+    assert!(trie.search("apple".to_string()));
+    assert!(!trie.search("app".to_string()));
+    assert!(trie.starts_with("app".to_string()));
+    trie.insert("app".to_string());
+    assert!(trie.search("app".to_string()));
+}    
 
-    #[test]
-    fn test_1() {
-        let mut trie = Trie::new();
-        trie.insert("apple".to_string());
-        assert!(trie.search("apple".to_string()));
-        assert!(!trie.search("app".to_string()));
-        assert!(trie.starts_with("app".to_string()));
-        trie.insert("app".to_string());
-        assert!(trie.search("app".to_string()));
-    }    
-}
